@@ -1,75 +1,14 @@
-# Nuxt Minimal Starter
+# Marek Sinagl — Portfolio
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This repository is the source for my personal website: a portfolio and showcase of selected work.
 
-## Setup
+I am a product engineer and software engineer. I build and operate software end to end. I am also a registered architect, with more than ten years of practice turning ambiguous client needs into buildable solutions.
 
-Make sure to install dependencies:
+## What’s in this site
 
-```bash
-# npm
-npm install
+- **Bio** — a short introduction to who I am and the work I do
+- **Project Archa** — a non-profit student knowledge-sharing platform I created at university in 2007 and still maintain as sole developer
+- **Project Mingly** — an early-stage spatial video-collaboration product I co-lead as one of two primary developers
+- **Contact** — how to reach me
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+The site is a small Nuxt and Vue application. This repo is the public source for that site, not a product to install or run.
