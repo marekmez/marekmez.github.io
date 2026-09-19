@@ -11,4 +11,4 @@ I am a product engineer and software engineer. I build and operate software end 
 - **Project Mingly** — an early-stage spatial video-collaboration product I co-lead as one of two primary developers
 - **Contact** — how to reach me
 
-The site is a small Nuxt and Vue application. This repo is the public source for that site, not a product to install or run.
+The site is a small Nuxt and Vue application, published at [marekmez.github.io/ms-porfolio](https://marekmez.github.io/ms-porfolio/). This repo is the public source for that site, not a product to install or run.
