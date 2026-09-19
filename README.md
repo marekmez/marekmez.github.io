@@ -6,9 +6,9 @@ I am a product engineer and software engineer. I build and operate software end 
 
 ## What’s in this site
 
-- **Bio** — a short introduction to who I am and the work I do
-- **Project Archa** — a non-profit student knowledge-sharing platform I created at university in 2007 and still maintain as sole developer
-- **Project Mingly** — an early-stage spatial video-collaboration product I co-lead as one of two primary developers
+- **Bio** — a short introduction and technical skills
+- **Projects** — selected software: Archa, Mingly, Packing Slips, and Controller
+- **Employment** — software and architecture roles, plus education and registration
 - **Contact** — how to reach me
 
 The site is a small Nuxt and Vue application, published at [marekmez.github.io/ms-porfolio](https://marekmez.github.io/ms-porfolio/). This repo is the public source for that site, not a product to install or run.
