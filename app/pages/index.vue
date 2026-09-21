@@ -14,25 +14,21 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
           <PageHeader />
 
           <p class="text-xl/relaxed mb-16">
-            <span class="break-keep">Full-stack</span> product engineer who builds and operates software end to end.
-            Created
-            <a
+            I’m an architect and product engineer who builds things from ambiguous ideas into
+            working, durable systems. My work spans architecture, computational design, and
+            full-stack software, with a focus on understanding real workflows, shaping the right
+            solution, and carrying it through design, implementation, and long-term operation.
+            Alongside more than a decade in architectural practice, I created and continue to
+            operate <a
               href="#project-archa"
               class="underline hover:text-malachite-500"
-            >Archa</a>, a non-profit
-            student
-            <span class="break-keep">knowledge-sharing</span> platform, at university in 2007 and continue to
-            maintain
-            it as sole developer: ~20k registered users, ~6k logged-in users last semester, and ~3.8M page views.
-            One of
-            two primary developers <span class="break-keep">co-leading</span> <a
+            >Archa</a>, a
+            long-running education platform, and co-lead engineering for
+            <a
               href="#project-mingly"
               class="underline hover:text-malachite-500"
-            >Mingly</a>, an early-stage
-            spatial <span class="break-keep">video-collaboration</span> startup beginning a fall 2026 pilot at BI
-            Norwegian Business School. Also a registered architect, with more than ten years of practice turning
-            ambiguous client needs into buildable solutions through design, computational workflows, and
-            multidisciplinary coordination.
+            >Mingly</a>, a
+            spatial collaboration product entering an institutional pilot in 2026.
           </p>
           <p class="font-mono text-sm text-neutral-500">
             <a
@@ -46,7 +42,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
 
       <section
         id="projects"
-        class="min-h-screen scroll-mt-20"
+        class="min-h-screen scroll-mt-20 mb-20"
       >
         <SectionHeader class="mb-12">
           Selected projects
@@ -56,9 +52,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
           id="project-mingly"
           class="mb-12 space-y-2 scroll-mt-8"
         >
-          <h2
-            class="font-bold"
-          >
+          <h2 class="font-bold">
             Mingly
           </h2>
           <div class="flex justify-between text-sm">
@@ -70,40 +64,48 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
               href="https://www.mingly.com"
             >mingly.com</a>
           </div>
-          <p class="text-malachite-600/75 italic leading-relaxed">
-            Early-stage spatial video collaboration startup: WebRTC conferencing on an interactive shared
-            canvas.
+          <p class="text-malachite-600/75 italic leading-relaxed font-bold">
+            Mingly is a spatial collaboration platform designed for online education and teams
+            working across disciplines and organizations. Rather than treating an online meeting as
+            a temporary grid of video calls, Mingly creates persistent digital rooms that behave
+            more like physical classrooms, studios, and meeting spaces.
           </p>
           <p class="leading-relaxed">
-            Spatial video collaboration: WebRTC conferencing on an interactive shared canvas.
+            Participants move through the room as avatars and work together on a shared canvas
+            containing documents, notes, whiteboards, presentations, and other material. Spatial
+            audio makes proximity meaningful: people can form groups naturally within the same room,
+            while conversations farther away fade out. The same environment can therefore support a
+            lecture, workshop, breakout session, or multidisciplinary project meeting without
+            continuously moving participants between separate calls.
           </p>
           <p class="leading-relaxed">
-            It exists because remote work still happens in a grid of talking heads, not in a shared space
-            where
-            people can present, mark up, and actually work together.
+            Rooms persist beyond the meeting itself. Conversations and shared working material
+            become part of the room's ongoing history, allowing teams and students to return to the
+            context of earlier sessions instead of starting from an empty meeting every time.
           </p>
           <p class="leading-relaxed">
-            I am one of two primary developers co-leading engineering from early development through alpha.
+            I am one of two primary developers co-leading product and engineering, taking Mingly
+            from early development through alpha and toward a fall 2026 pilot at
+            <b>BI Norwegian Business School</b>. My work spans the Go backend, Node.js real-time and
+            media services, and Nuxt/Vue/TypeScript frontend, with a particular focus on keeping
+            participant presence, spatial audio/video, and shared workspace state synchronized as
+            one coherent experience.
           </p>
-          <p class="leading-relaxed">
-            Fall 2026 pilot at BI Norwegian Business School.
-          </p>
-          <p class="leading-relaxed">
-            The hard problem is making presence feel spatial — real-time audio, video, and collaboration —
-            across a distributed system with a two-person team owning the whole product.
-          </p>
-          <p class="font-mono text-sm text-neutral-500">
-            Go · Node.js · WebRTC · Nuxt
-          </p>
+          <div
+            class="flex flex-wrap justify-between gap-2 text-xs/relaxed text-neutral-500 font-mono [&_span]:whitespace-nowrap"
+          >
+            <span>2 primary developers</span>
+            <span>Alpha stage</span>
+            <span>2026 institutional pilot</span>
+            <span>Persistent spatial collaboration</span>
+          </div>
         </article>
 
         <article
           id="project-archa"
           class="my-8 space-y-2 scroll-mt-8"
         >
-          <h2
-            class="font-bold"
-          >
+          <h2 class="font-bold">
             Archa
           </h2>
           <div class="flex justify-between text-sm">
@@ -115,39 +117,46 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
               href="https://www.archacvut.cz"
             >archacvut.cz</a>
           </div>
-          <p class="text-malachite-600/75 italic leading-relaxed">
-            Non-profit <span class="break-keep">study-materials</span> and
-            <span class="break-keep">knowledge-sharing</span> platform for university students.
+          <p class="text-malachite-600/75 italic leading-relaxed font-bold">
+            Archa is a non-profit knowledge-sharing platform for university students that I started
+            in 2007. It grew from a simple problem I experienced as a student: there was no
+            organized place where knowledge, study materials, and experience could be shared across
+            classes, groups, and academic years.
           </p>
-          <ul class="list-disc space-y-2 pl-5 leading-relaxed">
-            <li>
-              Founded Archa at university in 2007 and grew it into a production platform with ~20k registered users;
-              ~6k logged-in users in the most recent semester and ~3.8M page views.
-            </li>
-            <li>
-              Currently maintain the platform as sole developer, owning architecture, security, database, deployment,
-              <span class="break-keep">CI/CD</span>, features, and <span class="break-keep">long-term</span>
-              operations.
-            </li>
-            <li>
-              Shipped <span class="break-keep">LLM-based</span> document classification and summarization into the
-              production pipeline.
-            </li>
-            <li>
-              Designed a separate <span class="break-keep">Python/FastAPI</span> service with background workers for
-              document extraction, previews, file processing, and asynchronous workflows.
-            </li>
-            <li>
-              Evolved the platform from an early PHP application to Laravel (PHP 8.5) and Vue while maintaining
-              continuous production service and preserving years of accumulated data.
-            </li>
-          </ul>
+          <p class="leading-relaxed">
+            I designed Archa as a structured repository where students can upload and download
+            materials, rate courses and teachers, and share what was difficult or useful. A
+            credit-based internal currency encourages contribution: students earn credits by sharing
+            useful material and spend them to access material contributed by others. Over time, this
+            created a self-sustaining collection that now contains more than
+            <b>345,000 files and 551 GB of student-contributed data</b>.
+          </p>
+          <p class="leading-relaxed">
+            I remain the sole developer and administrator. The platform has gradually become largely
+            autonomous, using statistics, automated rules, background processing, and internal
+            workflows instead of requiring continuous manual moderation. Files are categorized and
+            processed automatically, and LLM-based summaries and classification are increasingly
+            used to make the growing collection easier to understand and discover.
+          </p>
+          <p class="leading-relaxed">
+            I have continuously modernized the system while keeping it in production—from the
+            original PHP application to today's Laravel backend, Vue/TypeScript frontend, and
+            separate Python/FastAPI processing services. The platform now serves nearly
+            <b>20,000 registered users</b>, with approximately <b>6,000</b> users logging in during
+            the most recent semester and <b>3.8 million</b> page views over that period.
+          </p>
+          <div class="flex justify-between text-sm/relaxed text-neutral-500 font-mono">
+            <span>345k+ files</span>
+            <span>550+ GB of shared data</span>
+            <span>6k semester users</span>
+            <span>3.8M page views</span>
+          </div>
         </article>
       </section>
 
       <section
         id="how-i-work"
-        class="min-h-screen scroll-mt-20"
+        class="min-h-screen scroll-mt-20 mb-20"
       >
         <SectionHeader class="mb-12">
           How I work
@@ -158,9 +167,8 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             Start with the real problem
           </h3>
           <p class="leading-relaxed">
-            Understand users and workflows before choosing tools. The stack is a consequence of the problem,
-            not
-            the starting point.
+            Understand users and workflows before choosing tools. The stack is a consequence of the
+            problem, not the starting point.
           </p>
         </div>
 
@@ -169,9 +177,8 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             Own the whole lifecycle
           </h3>
           <p class="leading-relaxed">
-            Design, build, ship, operate, and improve. Software that lasts is software someone still owns
-            after
-            launch.
+            Design, build, ship, operate, and improve. Software that lasts is software someone still
+            owns after launch.
           </p>
         </div>
 
@@ -180,17 +187,15 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             Work across disciplines
           </h3>
           <p class="leading-relaxed">
-            Translate between clients, product, design, engineering, and real-world constraints. That is the
-            job
-            of both an architect and a product engineer.
+            Translate between clients, product, design, engineering, and real-world constraints.
+            That is the job of both an architect and a product engineer.
           </p>
         </div>
 
         <p class="leading-relaxed">
           Architecture is an advantage here, not a previous career. It is practice with ambiguous
-          requirements,
-          multidisciplinary coordination, and computational design — Grasshopper, Python in Rhino, Dynamo for
-          Revit — to automate the parts that should not be manual.
+          requirements, multidisciplinary coordination, and computational design — Grasshopper,
+          Python in Rhino, Dynamo for Revit — to automate the parts that should not be manual.
         </p>
       </section>
 
@@ -210,7 +215,8 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             Architectural Designer, Neumann Monson Architects
           </h3>
           <p class="leading-relaxed">
-            Commercial and multifamily projects; computational design and BIM across consultant teams.
+            Commercial and multifamily projects; computational design and BIM across consultant
+            teams.
           </p>
         </article>
 
@@ -222,9 +228,8 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             Software Engineer, Elyxor
           </h3>
           <p class="leading-relaxed">
-            Production full-stack work: a warehouse logistics app I owned, and a cloud dashboard for VM
-            spend
-            across AWS and Azure.
+            Production full-stack work: a warehouse logistics app I owned, and a cloud dashboard for
+            VM spend across AWS and Azure.
           </p>
         </article>
 
@@ -236,7 +241,8 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             Associate Architect, Silvester Fuller
           </h3>
           <p class="leading-relaxed">
-            Project architect, designer, and BIM coordinator on residential, mixed-use, and commercial work.
+            Project architect, designer, and BIM coordinator on residential, mixed-use, and
+            commercial work.
           </p>
         </article>
 
@@ -264,16 +270,15 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
           <p class="font-mono text-sm text-neutral-500">
             2015
           </p>
-          <p>
-            <b>Registered Architect</b>, Czech Chamber of Architects
-          </p>
+          <p><b>Registered Architect</b>, Czech Chamber of Architects</p>
         </article>
         <article class="space-y-2 mb-6">
           <p class="font-mono text-sm text-neutral-500">
             2011
           </p>
           <p>
-            <b>Master of Architecture &amp; Building Engineering</b>, Czech Technical University in Prague
+            <b>Master of Architecture &amp; Building Engineering</b>, Czech Technical University in
+            Prague
           </p>
         </article>
         <article class="space-y-2 mb-6">
@@ -281,7 +286,8 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             2009
           </p>
           <p>
-            <b>Bachelor of Architecture &amp; Building Engineering</b>, Czech Technical University in Prague
+            <b>Bachelor of Architecture &amp; Building Engineering</b>, Czech Technical University
+            in Prague
           </p>
         </article>
       </section>
@@ -294,7 +300,8 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
           Contact
         </SectionHeader>
         <p class="text-lg/relaxed mb-4">
-          Open to remote-first permanent roles, with office visits as required. Located in Iowa City, IA.
+          Open to remote-first permanent roles, with office visits as required. Located in Iowa
+          City, IA.
         </p>
         <div class="flex justify-between leading-relaxed">
           <a

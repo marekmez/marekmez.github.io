@@ -1,8 +1,9 @@
 {
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
+    "source.fixAll.prettier": "explicit",
     "source.fixAll.eslint": "explicit"
   },
-   // Headwind
-   "headwind.runOnSave": true,
+  // Headwind
+  "headwind.runOnSave": true
 }
