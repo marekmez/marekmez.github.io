@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+@theme static {
+    --font-serif: "serif", Georgia, serif;
+    --font-mono: "mono", ui-monospace, monospace;
+
+    --color-malachite-50: #effef3;
+    --color-malachite-100: #d9ffe4;
+    --color-malachite-200: #b6fcca;
+    --color-malachite-300: #7df8a2;
+    --color-malachite-400: #3deb72;
+    --color-malachite-500: #1aea5a;
+    --color-malachite-600: #09b03d;
+    --color-malachite-700: #0b8a33;
+    --color-malachite-800: #0f6c2d;
+    --color-malachite-900: #0e5927;
+    --color-malachite-950: #013212;
+}

@@ -1,19 +1,17 @@
+import tailwindcss from '@tailwindcss/vite'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
+  modules: ['@nuxt/eslint'],
   devtools: { enabled: true },
-  css: ['~/assets/css/fonts.css'],
-  modules: ['@nuxtjs/tailwindcss'],
-  tailwindcss: {
+  css: ['~/assets/css/main.css'],
+  compatibilityDate: '2025-07-15',
+  vite: {
+    plugins: [tailwindcss()],
+  },
+  eslint: {
     config: {
-      theme: {
-        extend: {
-          fontFamily: {
-            serif: ['"serif"', 'Georgia', 'serif'],
-            mono: ['"mono"', 'ui-monospace', 'monospace'],
-          },
-        },
-      },
+      stylistic: true,
     },
   },
 })
