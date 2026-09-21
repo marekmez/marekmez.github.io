@@ -317,9 +317,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
         id="contact"
         class="min-h-screen scroll-mt-20"
       >
-        <SectionHeader class="mb-12">
-          Contact
-        </SectionHeader>
+        <SectionHeader> Contact </SectionHeader>
         <div>
           <img
             src="/ms-portret.jpg"
@@ -327,9 +325,9 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             class="w-full p-10"
           >
         </div>
-        <p class="text-lg/relaxed mb-4">
-          Open to remote-first permanent roles, with office visits as required. Located in Iowa
-          City, IA.
+        <p class="text-lg/relaxed mb-4 text-malachite-600/75 font-bold">
+          Based in Iowa City, Iowa. Open to remote-first permanent roles with occasional travel or
+          in-person collaboration. Authorized to work in the U.S. without sponsorship.
         </p>
         <div class="flex justify-between leading-relaxed">
           <a
