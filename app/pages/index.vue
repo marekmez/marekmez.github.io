@@ -145,7 +145,9 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             <b>20,000 registered users</b>, with approximately <b>6,000</b> users logging in during
             the most recent semester and <b>3.8 million</b> page views over that period.
           </p>
-          <div class="flex justify-between text-sm/relaxed text-neutral-500 font-mono">
+          <div
+            class="flex flex-wrap justify-between gap-2 text-xs/relaxed text-neutral-500 font-mono [&_span]:whitespace-nowrap"
+          >
             <span>345k+ files</span>
             <span>550+ GB of shared data</span>
             <span>6k semester users</span>
@@ -167,8 +169,9 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             Start with the real problem
           </h3>
           <p class="leading-relaxed">
-            Understand users and workflows before choosing tools. The stack is a consequence of the
-            problem, not the starting point.
+            I try to understand the people, workflow, constraints, and failure points before
+            deciding what to build. Technology is a tool for shaping the solution, not the starting
+            point.
           </p>
         </div>
 
@@ -177,8 +180,9 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             Own the whole lifecycle
           </h3>
           <p class="leading-relaxed">
-            Design, build, ship, operate, and improve. Software that lasts is software someone still
-            owns after launch.
+            I like to stay close to a product from the first idea through architecture,
+            implementation, deployment, operation, and iteration. Software that lasts is software
+            someone still owns after launch.
           </p>
         </div>
 
@@ -187,15 +191,29 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             Work across disciplines
           </h3>
           <p class="leading-relaxed">
-            Translate between clients, product, design, engineering, and real-world constraints.
-            That is the job of both an architect and a product engineer.
+            The most interesting problems rarely belong to one discipline. I am comfortable moving
+            between users, clients, design, engineering, and real-world constraints, translating
+            between them until the pieces work together.
+          </p>
+        </div>
+
+        <div class="space-y-2 mb-6">
+          <h3 class="font-bold">
+            Design for leverage
+          </h3>
+          <p class="leading-relaxed">
+            I look for ways to make the system do the repetitive work. Good automation is not about
+            adding complexity—it is about removing manual decisions, reducing maintenance, and
+            making a product easier to operate as it grows.
           </p>
         </div>
 
         <p class="leading-relaxed">
-          Architecture is an advantage here, not a previous career. It is practice with ambiguous
-          requirements, multidisciplinary coordination, and computational design — Grasshopper,
-          Python in Rhino, Dynamo for Revit — to automate the parts that should not be manual.
+          My engineering mindset grew out of both software and architecture. Architectural practice
+          taught me to work with ambiguity, coordinate specialists, test ideas against real
+          constraints, and carry a concept through to something that can actually be built.
+          Computational design—Grasshopper, Python in Rhino, and Dynamo for Revit—made automation
+          and software a natural extension of that way of thinking.
         </p>
       </section>
 
