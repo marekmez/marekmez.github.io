@@ -42,7 +42,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
 
       <section
         id="projects"
-        class="min-h-screen scroll-mt-20 mb-20"
+        class="min-h-screen scroll-mt-20 mb-40"
       >
         <SectionHeader class="mb-12">
           Selected projects
@@ -92,12 +92,12 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             one coherent experience.
           </p>
           <div
-            class="flex flex-wrap justify-between gap-2 text-xs/relaxed text-neutral-500 font-mono [&_span]:whitespace-nowrap"
+            class="flex flex-wrap gap-2 text-xs/relaxed text-neutral-500 font-mono [&_span]:whitespace-nowrap"
           >
-            <span>2 primary developers</span>
-            <span>Alpha stage</span>
-            <span>2026 institutional pilot</span>
-            <span>Persistent spatial collaboration</span>
+            <BadgeItem>2 primary developers</BadgeItem>
+            <BadgeItem>Alpha stage</BadgeItem>
+            <BadgeItem>2026 institutional pilot</BadgeItem>
+            <BadgeItem>Persistent spatial collaboration</BadgeItem>
           </div>
         </article>
 
@@ -146,19 +146,19 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             the most recent semester and <b>3.8 million</b> page views over that period.
           </p>
           <div
-            class="flex flex-wrap justify-between gap-2 text-xs/relaxed text-neutral-500 font-mono [&_span]:whitespace-nowrap"
+            class="flex flex-wrap gap-2 text-xs/relaxed text-neutral-500 font-mono [&_span]:whitespace-nowrap"
           >
-            <span>345k+ files</span>
-            <span>550+ GB of shared data</span>
-            <span>6k semester users</span>
-            <span>3.8M page views</span>
+            <BadgeItem>345k+ files</BadgeItem>
+            <BadgeItem>550+ GB of shared data</BadgeItem>
+            <BadgeItem>6k semester users</BadgeItem>
+            <BadgeItem>3.8M page views</BadgeItem>
           </div>
         </article>
       </section>
 
       <section
         id="how-i-work"
-        class="min-h-screen scroll-mt-20 mb-20"
+        class="min-h-screen scroll-mt-20 mb-40"
       >
         <SectionHeader class="mb-12">
           How I work
@@ -219,7 +219,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
 
       <section
         id="experience"
-        class="min-h-screen scroll-mt-20"
+        class="min-h-screen scroll-mt-20 mb-40"
       >
         <SectionHeader class="mb-12">
           Experience
@@ -227,14 +227,15 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
 
         <article class="space-y-2 mb-6">
           <p class="font-mono text-sm text-neutral-500">
-            2022 — present · Iowa City
+            2022 — present · Iowa City, IA
           </p>
           <h3 class="font-bold">
             Architectural Designer, Neumann Monson Architects
           </h3>
           <p class="leading-relaxed">
-            Commercial and multifamily projects; computational design and BIM across consultant
-            teams.
+            Architectural design across commercial and multifamily projects, combining
+            multidisciplinary coordination with BIM, computational design, and scripting to solve
+            technical problems and improve workflows.
           </p>
         </article>
 
@@ -246,33 +247,35 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             Software Engineer, Elyxor
           </h3>
           <p class="leading-relaxed">
-            Production full-stack work: a warehouse logistics app I owned, and a cloud dashboard for
-            VM spend across AWS and Azure.
+            Built production software across two client products: a warehouse logistics application
+            I owned as the sole full-stack developer, and a cloud-management platform for
+            controlling virtual machines and monitoring infrastructure spend across AWS and Azure.
           </p>
         </article>
 
         <article class="space-y-2 mb-6">
           <p class="font-mono text-sm text-neutral-500">
-            2015 — 2019 · Sydney
+            2015 — 2019 · Sydney, Australia
           </p>
           <h3 class="font-bold">
             Associate Architect, Silvester Fuller
           </h3>
           <p class="leading-relaxed">
-            Project architect, designer, and BIM coordinator on residential, mixed-use, and
-            commercial work.
+            Led design and technical coordination as project architect, designer, and BIM
+            coordinator across residential, mixed-use, and commercial projects.
           </p>
         </article>
 
         <article class="space-y-2 mb-6">
           <p class="font-mono text-sm text-neutral-500">
-            2011 — 2014 · Prague
+            2011 — 2014 · Prague, Czech Republic
           </p>
           <h3 class="font-bold">
             Director &amp; Founding Partner, Mio architects
           </h3>
           <p class="leading-relaxed">
-            Led projects from concept through construction while running the studio.
+            Co-founded and ran the studio, leading projects from concept through construction while
+            managing clients, consultants, and day-to-day practice.
           </p>
         </article>
       </section>
@@ -317,6 +320,13 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
         <SectionHeader class="mb-12">
           Contact
         </SectionHeader>
+        <div>
+          <img
+            src="/ms-portret.jpg"
+            alt="Marek Sinagl"
+            class="w-full p-10"
+          >
+        </div>
         <p class="text-lg/relaxed mb-4">
           Open to remote-first permanent roles, with office visits as required. Located in Iowa
           City, IA.
