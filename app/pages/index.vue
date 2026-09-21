@@ -8,7 +8,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
     <div>
       <section
         id="bio"
-        class="min-h-screen flex items-center"
+        class="md:min-h-screen flex items-center my-12"
       >
         <div>
           <PageHeader />
@@ -42,7 +42,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
 
       <section
         id="projects"
-        class="min-h-screen scroll-mt-20 mb-40"
+        class="md:min-h-screen scroll-mt-20 my-12 md:mb-40"
       >
         <SectionHeader class="mb-12">
           Selected projects
@@ -52,7 +52,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
           id="project-mingly"
           class="mb-12 space-y-2 scroll-mt-8"
         >
-          <h2 class="font-bold">
+          <h2 class="font-bold tracking-wider text-xl">
             Mingly
           </h2>
           <div class="flex justify-between text-sm">
@@ -105,7 +105,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
           id="project-archa"
           class="my-8 space-y-2 scroll-mt-8"
         >
-          <h2 class="font-bold">
+          <h2 class="font-bold tracking-wider text-xl">
             Archa
           </h2>
           <div class="flex justify-between text-sm">
@@ -158,7 +158,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
 
       <section
         id="how-i-work"
-        class="min-h-screen scroll-mt-20 mb-40"
+        class="md:min-h-screen scroll-mt-20 my-12 md:mb-40"
       >
         <SectionHeader class="mb-12">
           How I work
@@ -219,7 +219,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
 
       <section
         id="experience"
-        class="min-h-screen scroll-mt-20 mb-40"
+        class="md:min-h-screen scroll-mt-20 my-12 md:mb-40"
       >
         <SectionHeader class="mb-12">
           Experience
@@ -282,7 +282,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
 
       <section
         id="education"
-        class="min-h-screen scroll-mt-20"
+        class="md:min-h-screen scroll-mt-20 my-12"
       >
         <SectionHeader class="mb-12">
           Education
@@ -315,7 +315,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
 
       <section
         id="contact"
-        class="min-h-screen scroll-mt-20"
+        class="md:min-h-screen scroll-mt-20 my-12"
       >
         <SectionHeader> Contact </SectionHeader>
         <div>
