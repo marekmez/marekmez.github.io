@@ -321,7 +321,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
           <img
             src="/ms-portret.jpg"
             alt="Marek Sinagl"
-            class="w-full md:w-2/3 mx-auto py-12"
+            class="w-2/3 mx-auto py-12"
           >
         </div>
         <p class="text-lg/relaxed mb-4 text-malachite-600/75 dark:text-malachite-400/80 font-bold">
