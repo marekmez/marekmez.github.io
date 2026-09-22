@@ -2,10 +2,13 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint'],
+  modules: ['@nuxt/eslint', 'nuxt-gtag'],
   devtools: { enabled: true },
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'en',
+      },
       title: 'Marek Sinagl — Product Engineer + Architect',
       link: [
         // Basic favicon
@@ -44,5 +47,8 @@ export default defineNuxtConfig({
     config: {
       stylistic: true,
     },
+  },
+  gtag: {
+    id: 'G-4QVYKL1K8G',
   },
 })
