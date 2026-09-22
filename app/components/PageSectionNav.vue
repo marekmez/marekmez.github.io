@@ -1,12 +1,11 @@
 <script setup lang="ts">
-type SectionId = 'bio' | 'projects' | 'how-i-work' | 'experience' | 'education' | 'contact'
+type SectionId = 'bio' | 'projects' | 'how-i-work' | 'experience-education' | 'contact'
 
 const sections: { id: SectionId, label: string }[] = [
   { id: 'bio', label: 'Bio' },
   { id: 'projects', label: 'Projects' },
   { id: 'how-i-work', label: 'How I work' },
-  { id: 'experience', label: 'Experience' },
-  { id: 'education', label: 'Education' },
+  { id: 'experience-education', label: 'Experience' },
   { id: 'contact', label: 'Contact' },
 ]
 
@@ -25,9 +24,12 @@ function scrollToSection(id: SectionId) {
   const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
   el.scrollIntoView({ behavior: prefersReduced ? 'auto' : 'smooth', block: 'start' })
 
-  ignoreTimer = setTimeout(() => {
-    ignoreScroll = false
-  }, prefersReduced ? 50 : 700)
+  ignoreTimer = setTimeout(
+    () => {
+      ignoreScroll = false
+    },
+    prefersReduced ? 50 : 700,
+  )
 }
 
 function updateActive() {
@@ -85,7 +87,11 @@ onUnmounted(() => {
           </span>
           <span
             class="block h-0.5 w-3 bg-neutral-300 dark:bg-neutral-600 transition-all duration-200"
-            :class="activeId === section.id ? 'w-5 bg-neutral-900 dark:bg-neutral-100' : 'group-hover:bg-neutral-500 dark:group-hover:bg-neutral-400'"
+            :class="
+              activeId === section.id
+                ? 'w-5 bg-neutral-900 dark:bg-neutral-100'
+                : 'group-hover:bg-neutral-500 dark:group-hover:bg-neutral-400'
+            "
           />
         </button>
       </li>

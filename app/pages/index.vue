@@ -221,8 +221,8 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
       </section>
 
       <section
-        id="experience"
-        class="scroll-mt-20 my-12"
+        id="experience-education"
+        class="min-h-screen scroll-mt-20 my-12"
       >
         <SectionHeader class="mb-12">
           Experience
@@ -281,15 +281,11 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             managing clients, consultants, and day-to-day practice.
           </p>
         </article>
-      </section>
 
-      <section
-        id="education"
-        class="scroll-mt-20 mb-12"
-      >
-        <SectionHeader class="mb-12">
+        <SectionHeader class="my-12">
           Education
         </SectionHeader>
+
         <article class="space-y-2 mb-6">
           <p class="font-mono text-sm text-neutral-500 dark:text-neutral-400">
             2015
