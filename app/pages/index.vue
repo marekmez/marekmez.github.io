@@ -19,16 +19,15 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             full-stack software, with a focus on understanding real workflows, shaping the right
             solution, and carrying it through design, implementation, and long-term operation.
             Alongside more than a decade in architectural practice, I created and continue to
-            operate <a
+            operate
+            <a
               href="#project-archa"
               class="underline hover:text-malachite-500 dark:hover:text-malachite-400"
-            >Archa</a>, a
-            long-running education platform, and co-lead engineering for
+            >Archa</a>, a long-running education platform, and co-lead engineering for
             <a
               href="#project-mingly"
               class="underline hover:text-malachite-500 dark:hover:text-malachite-400"
-            >Mingly</a>, a
-            spatial collaboration product entering an institutional pilot in 2026.
+            >Mingly</a>, a spatial collaboration product entering an institutional pilot in 2026.
           </p>
           <p class="font-mono text-sm text-neutral-500 dark:text-neutral-400">
             <a
@@ -64,7 +63,9 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
               href="https://www.mingly.com"
             >mingly.com</a>
           </div>
-          <p class="text-malachite-600/75 dark:text-malachite-400/80 italic leading-relaxed font-bold">
+          <p
+            class="text-malachite-600/75 dark:text-malachite-400/80 italic leading-relaxed font-bold"
+          >
             Mingly is a spatial collaboration platform designed for online education and teams
             working across disciplines and organizations. Rather than treating an online meeting as
             a temporary grid of video calls, Mingly creates persistent digital rooms that behave
@@ -117,7 +118,9 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
               href="https://www.archacvut.cz"
             >archacvut.cz</a>
           </div>
-          <p class="text-malachite-600/75 dark:text-malachite-400/80 italic leading-relaxed font-bold">
+          <p
+            class="text-malachite-600/75 dark:text-malachite-400/80 italic leading-relaxed font-bold"
+          >
             Archa is a non-profit knowledge-sharing platform for university students that I started
             in 2007. It grew from a simple problem I experienced as a student: there was no
             organized place where knowledge, study materials, and experience could be shared across
@@ -322,7 +325,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
           <img
             src="/ms-portret.jpg"
             alt="Marek Sinagl"
-            class="w-full p-10"
+            class="w-2/3 mx-auto py-10"
           >
         </div>
         <p class="text-lg/relaxed mb-4 text-malachite-600/75 dark:text-malachite-400/80 font-bold">
