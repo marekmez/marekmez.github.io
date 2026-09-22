@@ -211,7 +211,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
           </p>
         </div>
 
-        <p class="leading-relaxed">
+        <p class="leading-relaxed text-malachite-600/75 dark:text-malachite-400/80 italic">
           My engineering mindset grew out of both software and architecture. Architectural practice
           taught me to work with ambiguity, coordinate specialists, test ideas against real
           constraints, and carry a concept through to something that can actually be built.
