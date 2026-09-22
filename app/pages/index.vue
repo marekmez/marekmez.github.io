@@ -219,7 +219,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
 
       <section
         id="experience"
-        class="md:min-h-screen scroll-mt-20 my-12 md:mb-40"
+        class="scroll-mt-20 my-12"
       >
         <SectionHeader class="mb-12">
           Experience
@@ -282,7 +282,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
 
       <section
         id="education"
-        class="md:min-h-screen scroll-mt-20 my-12"
+        class="scroll-mt-20 mb-20"
       >
         <SectionHeader class="mb-12">
           Education
@@ -315,9 +315,9 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
 
       <section
         id="contact"
-        class="md:min-h-screen scroll-mt-20 my-12"
+        class="md:min-h-screen scroll-mt-20 mb-20"
       >
-        <SectionHeader> Contact </SectionHeader>
+        <SectionHeader>Contact</SectionHeader>
         <div>
           <img
             src="/ms-portret.jpg"
@@ -326,24 +326,23 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
           >
         </div>
         <p class="text-lg/relaxed mb-4 text-malachite-600/75 font-bold">
-          Based in Iowa City, Iowa. Open to remote-first permanent roles with occasional travel or
-          in-person collaboration. Authorized to work in the U.S. without sponsorship.
+          Based in Iowa City, Iowa. Working across architecture, software, and product development.
         </p>
         <div class="flex justify-between leading-relaxed">
           <a
-            class="underline hover:text-malachite-500"
+            class="underline hover:text-malachite-500 active:text-malachite-600"
             href="mailto:marek.sinagl@gmail.com"
           >marek.sinagl@gmail.com</a>
           <a
-            class="underline hover:text-malachite-500"
+            class="underline hover:text-malachite-500 active:text-malachite-600"
             href="https://github.com/marekmez"
           >GitHub</a>
           <a
-            class="underline hover:text-malachite-500"
+            class="underline hover:text-malachite-500 active:text-malachite-600"
             href="https://linkedin.com/in/marek-sinagl-9677551b0"
           >LinkedIn</a>
           <a
-            class="underline hover:text-malachite-500"
+            class="underline hover:text-malachite-500 active:text-malachite-600"
             :href="cvHref"
             download="Marek-Sinagl-CV.pdf"
           >CV</a>
