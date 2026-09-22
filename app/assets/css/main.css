@@ -2,7 +2,19 @@
 @import "./fonts.css";
 
 :root {
-    color-scheme: light dark;
+    color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+    }
+}
+
+@layer base {
+    html {
+        @apply bg-white dark:bg-neutral-950;
+    }
 }
 
 @theme static {

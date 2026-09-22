@@ -1,5 +1,5 @@
 <template>
-  <header class="flex justify-between mb-16">
+  <header class="flex justify-between">
     <div>
       <h1 class="text-4xl font-bold tracking-wider mb-4">
         Marek Sinagl

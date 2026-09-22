@@ -11,9 +11,9 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
         class="md:min-h-screen flex items-center my-12"
       >
         <div>
-          <PageHeader />
+          <PageHeader class="my-20 md:my-16" />
 
-          <p class="text-xl/relaxed mb-16">
+          <p class="text-lg/relaxed md:text-xl/relaxed mb-4 md:mb-16">
             I’m an architect and product engineer who builds things from ambiguous ideas into
             working, durable systems. My work spans architecture, computational design, and
             full-stack software, with a focus on understanding real workflows, shaping the right
@@ -121,10 +121,10 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
           <p
             class="text-malachite-600/75 dark:text-malachite-400/80 italic leading-relaxed font-bold"
           >
-            Archa is a non-profit knowledge-sharing platform for university students that I started
-            in 2007. It grew from a simple problem I experienced as a student: there was no
-            organized place where knowledge, study materials, and experience could be shared across
-            classes, groups, and academic years.
+            Archa is a free knowledge-sharing platform for university students that I started in
+            2007. It grew from a simple problem I experienced as a student: there was no organized
+            place where knowledge, study materials, and experience could be shared across classes,
+            groups, and academic years.
           </p>
           <p class="leading-relaxed">
             I designed Archa as a structured repository where students can upload and download
@@ -285,7 +285,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
 
       <section
         id="education"
-        class="scroll-mt-20 mb-20"
+        class="scroll-mt-20 mb-12"
       >
         <SectionHeader class="mb-12">
           Education
@@ -318,14 +318,14 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
 
       <section
         id="contact"
-        class="md:min-h-screen scroll-mt-20 mb-20"
+        class="md:min-h-screen scroll-mt-20 mb-12"
       >
         <SectionHeader>Contact</SectionHeader>
         <div>
           <img
             src="/ms-portret.jpg"
             alt="Marek Sinagl"
-            class="w-2/3 mx-auto py-10"
+            class="w-full md:w-2/3 mx-auto py-12"
           >
         </div>
         <p class="text-lg/relaxed mb-4 text-malachite-600/75 dark:text-malachite-400/80 font-bold">
