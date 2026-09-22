@@ -21,18 +21,18 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             Alongside more than a decade in architectural practice, I created and continue to
             operate <a
               href="#project-archa"
-              class="underline hover:text-malachite-500"
+              class="underline hover:text-malachite-500 dark:hover:text-malachite-400"
             >Archa</a>, a
             long-running education platform, and co-lead engineering for
             <a
               href="#project-mingly"
-              class="underline hover:text-malachite-500"
+              class="underline hover:text-malachite-500 dark:hover:text-malachite-400"
             >Mingly</a>, a
             spatial collaboration product entering an institutional pilot in 2026.
           </p>
-          <p class="font-mono text-sm text-neutral-500">
+          <p class="font-mono text-sm text-neutral-500 dark:text-neutral-400">
             <a
-              class="underline hover:text-malachite-500"
+              class="underline hover:text-malachite-500 dark:hover:text-malachite-400"
               :href="cvHref"
               download="Marek-Sinagl-CV.pdf"
             >Download CV</a>
@@ -56,15 +56,15 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             Mingly
           </h2>
           <div class="flex justify-between text-sm">
-            <p class="font-mono text-neutral-500">
+            <p class="font-mono text-neutral-500 dark:text-neutral-400">
               2023 — present
             </p>
             <a
-              class="underline hover:text-malachite-500"
+              class="underline hover:text-malachite-500 dark:hover:text-malachite-400"
               href="https://www.mingly.com"
             >mingly.com</a>
           </div>
-          <p class="text-malachite-600/75 italic leading-relaxed font-bold">
+          <p class="text-malachite-600/75 dark:text-malachite-400/80 italic leading-relaxed font-bold">
             Mingly is a spatial collaboration platform designed for online education and teams
             working across disciplines and organizations. Rather than treating an online meeting as
             a temporary grid of video calls, Mingly creates persistent digital rooms that behave
@@ -92,7 +92,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             one coherent experience.
           </p>
           <div
-            class="flex flex-wrap gap-2 text-xs/relaxed text-neutral-500 font-mono [&_span]:whitespace-nowrap"
+            class="flex flex-wrap gap-2 text-xs/relaxed text-neutral-500 dark:text-neutral-400 font-mono [&_span]:whitespace-nowrap"
           >
             <BadgeItem>2 primary developers</BadgeItem>
             <BadgeItem>Alpha stage</BadgeItem>
@@ -109,15 +109,15 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             Archa
           </h2>
           <div class="flex justify-between text-sm">
-            <p class="font-mono text-neutral-500">
+            <p class="font-mono text-neutral-500 dark:text-neutral-400">
               2007 — present
             </p>
             <a
-              class="underline hover:text-malachite-500"
+              class="underline hover:text-malachite-500 dark:hover:text-malachite-400"
               href="https://www.archacvut.cz"
             >archacvut.cz</a>
           </div>
-          <p class="text-malachite-600/75 italic leading-relaxed font-bold">
+          <p class="text-malachite-600/75 dark:text-malachite-400/80 italic leading-relaxed font-bold">
             Archa is a non-profit knowledge-sharing platform for university students that I started
             in 2007. It grew from a simple problem I experienced as a student: there was no
             organized place where knowledge, study materials, and experience could be shared across
@@ -146,7 +146,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             the most recent semester and <b>3.8 million</b> page views over that period.
           </p>
           <div
-            class="flex flex-wrap gap-2 text-xs/relaxed text-neutral-500 font-mono [&_span]:whitespace-nowrap"
+            class="flex flex-wrap gap-2 text-xs/relaxed text-neutral-500 dark:text-neutral-400 font-mono [&_span]:whitespace-nowrap"
           >
             <BadgeItem>345k+ files</BadgeItem>
             <BadgeItem>550+ GB of shared data</BadgeItem>
@@ -226,7 +226,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
         </SectionHeader>
 
         <article class="space-y-2 mb-6">
-          <p class="font-mono text-sm text-neutral-500">
+          <p class="font-mono text-sm text-neutral-500 dark:text-neutral-400">
             2022 — present · Iowa City, IA
           </p>
           <h3 class="font-bold">
@@ -240,7 +240,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
         </article>
 
         <article class="space-y-2 mb-6">
-          <p class="font-mono text-sm text-neutral-500">
+          <p class="font-mono text-sm text-neutral-500 dark:text-neutral-400">
             2020 — 2022 · Newburyport, MA
           </p>
           <h3 class="font-bold">
@@ -254,7 +254,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
         </article>
 
         <article class="space-y-2 mb-6">
-          <p class="font-mono text-sm text-neutral-500">
+          <p class="font-mono text-sm text-neutral-500 dark:text-neutral-400">
             2015 — 2019 · Sydney, Australia
           </p>
           <h3 class="font-bold">
@@ -267,7 +267,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
         </article>
 
         <article class="space-y-2 mb-6">
-          <p class="font-mono text-sm text-neutral-500">
+          <p class="font-mono text-sm text-neutral-500 dark:text-neutral-400">
             2011 — 2014 · Prague, Czech Republic
           </p>
           <h3 class="font-bold">
@@ -288,13 +288,13 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
           Education
         </SectionHeader>
         <article class="space-y-2 mb-6">
-          <p class="font-mono text-sm text-neutral-500">
+          <p class="font-mono text-sm text-neutral-500 dark:text-neutral-400">
             2015
           </p>
           <p><b>Registered Architect</b>, Czech Chamber of Architects</p>
         </article>
         <article class="space-y-2 mb-6">
-          <p class="font-mono text-sm text-neutral-500">
+          <p class="font-mono text-sm text-neutral-500 dark:text-neutral-400">
             2011
           </p>
           <p>
@@ -303,7 +303,7 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
           </p>
         </article>
         <article class="space-y-2 mb-6">
-          <p class="font-mono text-sm text-neutral-500">
+          <p class="font-mono text-sm text-neutral-500 dark:text-neutral-400">
             2009
           </p>
           <p>
@@ -325,24 +325,24 @@ const cvHref = `${useRuntimeConfig().app.baseURL}marek-sinagl-cv.pdf`
             class="w-full p-10"
           >
         </div>
-        <p class="text-lg/relaxed mb-4 text-malachite-600/75 font-bold">
+        <p class="text-lg/relaxed mb-4 text-malachite-600/75 dark:text-malachite-400/80 font-bold">
           Based in Iowa City, Iowa. Working across architecture, software, and product development.
         </p>
         <div class="flex justify-between leading-relaxed">
           <a
-            class="underline hover:text-malachite-500 active:text-malachite-600"
+            class="underline hover:text-malachite-500 dark:hover:text-malachite-400 active:text-malachite-600 dark:active:text-malachite-300"
             href="mailto:marek.sinagl@gmail.com"
           >marek.sinagl@gmail.com</a>
           <a
-            class="underline hover:text-malachite-500 active:text-malachite-600"
+            class="underline hover:text-malachite-500 dark:hover:text-malachite-400 active:text-malachite-600 dark:active:text-malachite-300"
             href="https://github.com/marekmez"
           >GitHub</a>
           <a
-            class="underline hover:text-malachite-500 active:text-malachite-600"
+            class="underline hover:text-malachite-500 dark:hover:text-malachite-400 active:text-malachite-600 dark:active:text-malachite-300"
             href="https://linkedin.com/in/marek-sinagl-9677551b0"
           >LinkedIn</a>
           <a
-            class="underline hover:text-malachite-500 active:text-malachite-600"
+            class="underline hover:text-malachite-500 dark:hover:text-malachite-400 active:text-malachite-600 dark:active:text-malachite-300"
             :href="cvHref"
             download="Marek-Sinagl-CV.pdf"
           >CV</a>

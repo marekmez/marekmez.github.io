@@ -79,13 +79,13 @@ onUnmounted(() => {
           @click="scrollToSection(section.id)"
         >
           <span
-            class="pointer-events-none hidden font-mono text-[10px] tracking-wide text-neutral-400 opacity-0 transition-opacity duration-150 group-hover:opacity-100 xl:inline"
+            class="pointer-events-none hidden font-mono text-[10px] tracking-wide text-neutral-400 dark:text-neutral-500 opacity-0 transition-opacity duration-150 group-hover:opacity-100 xl:inline"
           >
             {{ section.label }}
           </span>
           <span
-            class="block h-0.5 w-3 bg-neutral-300 transition-all duration-200"
-            :class="activeId === section.id ? 'w-5 bg-neutral-900' : 'group-hover:bg-neutral-500'"
+            class="block h-0.5 w-3 bg-neutral-300 dark:bg-neutral-600 transition-all duration-200"
+            :class="activeId === section.id ? 'w-5 bg-neutral-900 dark:bg-neutral-100' : 'group-hover:bg-neutral-500 dark:group-hover:bg-neutral-400'"
           />
         </button>
       </li>

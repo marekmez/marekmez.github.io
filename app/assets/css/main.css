@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @import "./fonts.css";
 
+:root {
+    color-scheme: light dark;
+}
+
 @theme static {
     --font-serif: "serif", Georgia, serif;
     --font-mono: "mono", ui-monospace, monospace;
