@@ -2,7 +2,15 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint', 'nuxt-gtag'],
+  modules: ['@nuxt/eslint', 'nuxt-gtag', '@nuxtjs/sitemap'],
+  site: {
+    url: 'https://marekmez.github.io',
+    name: 'Marek Sinagl',
+  },
+  sitemap: {
+    // Image discovery drops the GitHub Pages base path from absolute URLs.
+    discoverImages: false,
+  },
   devtools: { enabled: true },
   app: {
     head: {

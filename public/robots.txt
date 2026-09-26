@@ -1,2 +1,4 @@
 User-Agent: *
 Disallow:
+
+Sitemap: https://marekmez.github.io/ms-porfolio/sitemap.xml
